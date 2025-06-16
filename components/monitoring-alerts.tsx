@@ -27,7 +27,7 @@ export function MonitoringAlerts() {
       <CardHeader>
         <CardTitle className="text-white flex items-center">
           <Bell className="w-5 h-5 mr-2 text-teal-400" />
-          Monitoring & Alerts
+          {"Monitoring & Alerts"}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">

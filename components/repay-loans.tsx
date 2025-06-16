@@ -161,9 +161,9 @@ export function RepayLoans() {
               <div className="p-4 bg-green-500/10 border border-green-500/30 rounded-lg">
                 <h4 className="text-green-400 font-medium mb-2">Early Repayment Benefits</h4>
                 <ul className="text-sm text-green-300 space-y-1">
-                  <li>• No future interest charges</li>
-                  <li>• Improved health factor</li>
-                  <li>• Increased borrowing capacity</li>
+                  <li>{"• No future interest charges"}</li>
+                  <li>{"• Improved health factor"}</li>
+                  <li>{"• Increased borrowing capacity"}</li>
                 </ul>
               </div>
             )}

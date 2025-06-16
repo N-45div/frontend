@@ -16,7 +16,7 @@ export function PersonalAnalytics() {
       <CardContent className="space-y-6">
         <div className="grid grid-cols-2 gap-4">
           <div className="text-center p-3 bg-slate-700/50 rounded-lg">
-            <div className="text-2xl font-bold text-teal-400">+12.5%</div>
+            <div className="text-2xl font-bold text-teal-400">{"+12.5%"}</div>
             <div className="text-sm text-gray-400">Total Yield</div>
           </div>
           <div className="text-center p-3 bg-slate-700/50 rounded-lg">
@@ -54,7 +54,7 @@ export function PersonalAnalytics() {
               <div>
                 <p className="text-sm text-teal-300 font-medium">Optimization Suggestion</p>
                 <p className="text-xs text-teal-200">
-                  Consider moving 25% of ETH collateral to Avalanche for +2.3% APY
+                  {"Consider moving 25% of ETH collateral to Avalanche for +2.3% APY"}
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export function PersonalAnalytics() {
             <div className="flex justify-between items-center p-2 bg-slate-700/30 rounded">
               <div>
                 <div className="text-sm text-white">Deposited 5.0 ETH</div>
-                <div className="text-xs text-gray-400">Ethereum → BNB Chain</div>
+                <div className="text-xs text-gray-400">{"Ethereum → BNB Chain"}</div>
               </div>
               <div className="text-xs text-gray-400">2 days ago</div>
             </div>

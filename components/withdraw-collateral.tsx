@@ -103,7 +103,10 @@ export function WithdrawCollateral() {
               </div>
               <div className="flex justify-between text-sm">
                 <span className="text-gray-400">Reduced Capacity</span>
-                <span className="text-orange-400">-${impactOnBorrowing}</span>
+                <span className="text-orange-400">
+                  {"-$"}
+                  {impactOnBorrowing}
+                </span>
               </div>
             </div>
 
