@@ -15,7 +15,7 @@ export function PortfolioOverview() {
           <div className="text-2xl font-bold text-white">$45,231.89</div>
           <p className="text-xs text-gray-400 flex items-center mt-1">
             <TrendingUp className="h-3 w-3 mr-1 text-green-400" />
-            +20.1% from last month
+            {"+20.1% from last month"}
           </p>
         </CardContent>
       </Card>
@@ -48,7 +48,7 @@ export function PortfolioOverview() {
           <TrendingUp className="h-4 w-4 text-teal-400" />
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-teal-400">+12.5%</div>
+          <div className="text-2xl font-bold text-teal-400">{"+12.5%"}</div>
           <p className="text-xs text-gray-400">Optimized yield</p>
         </CardContent>
       </Card>

@@ -74,7 +74,7 @@ export function StatsSection() {
     return () => observer.disconnect()
   }, [])
 
-  const formatValue = (stat: (typeof stats)[0]) => {
+  const formatValue = (stat: (typeof animatedStats)[0]) => {
     const { value, prefix, suffix, target } = stat
     if (target >= 1000000000) {
       return `${prefix}${(value / 1000000000).toFixed(1)}${suffix}`

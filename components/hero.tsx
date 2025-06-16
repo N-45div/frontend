@@ -31,8 +31,9 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Deposit collateral on one chain, borrow on another. Maximize your capital efficiency across blockchain
-            ecosystems with institutional-grade security.
+            {
+              "Deposit collateral on one chain, borrow on another. Maximize your capital efficiency across blockchain ecosystems with institutional-grade security."
+            }
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

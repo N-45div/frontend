@@ -7,9 +7,9 @@ export function CallToAction() {
     <section className="py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-gradient-to-r from-teal-600/20 to-cyan-600/20 backdrop-blur-sm border border-teal-500/30 rounded-2xl p-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Start Cross-Chain Lending?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">{"Ready to Start Cross-Chain Lending?"}</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join the future of DeFi with institutional-grade security and seamless cross-chain operations.
+            {"Join the future of DeFi with institutional-grade security and seamless cross-chain operations."}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
