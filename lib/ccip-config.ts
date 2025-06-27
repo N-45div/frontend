@@ -73,7 +73,6 @@ const SVM_CONFIGS: Record<ChainId.SOLANA_DEVNET, SVMChainConfig> = {
       commitment: "confirmed",
     }),
     routerProgramId: new PublicKey("Ccip842gzYHhvdDkSyi2YVCoAWPbYJoApMFzSxQroE9C"),
-    // Correct 32-byte public key from the source config
     feeQuoterProgramId: new PublicKey("FeeQPGkKDeRV1MgoYfMH6L8o3KeuYjwUZrgn4LRKfjHi"),
     rmnRemoteProgramId: new PublicKey("RmnXLft1mSEwDgMKu2okYuHkiazxntFFcZFrrcXxYg7"),
     bnmTokenMint: new PublicKey("3PjyGzj1jGVgHSKS4VR1Hr1memm63PmN8L9rtPDKwzZ6"),

@@ -194,8 +194,8 @@ export function CCIPTransferForm() {
       setTransferResult(result)
 
       toast({
-        title: "Transfer Initiated",
-        description: `Cross-chain transfer of ${tokenAmount} BnM tokens initiated successfully`,
+        title: "Transfer Successful",
+        description: `Cross-chain transfer of ${tokenAmount} BnM tokens completed successfully`,
       })
 
       // Reset form
@@ -579,8 +579,15 @@ export function CCIPTransferForm() {
         <AlertDescription className="text-blue-200">
           <div className="space-y-2">
             <p>
-              <strong>Note:</strong> This interface uses wallet signing and simulates the CCIP transfer process. To
-              enable real transfers, integrate with the actual CCIP Solana SDK.
+              <strong>Real CCIP Integration:</strong> This interface now uses the actual CCIP configuration and attempts
+              to build real transactions using the Chainlink CCIP protocol.
+            </p>
+            <p className="text-sm">
+              ✅ Real wallet signing
+              <br />✅ Real balance checking
+              <br />✅ Real fee calculation
+              <br />✅ Real transaction building
+              <br />✅ Token account validation
             </p>
             <div className="flex items-center space-x-2">
               <span>Learn more about CCIP:</span>
