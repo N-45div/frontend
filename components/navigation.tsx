@@ -14,6 +14,7 @@ const navigation = [
   { name: "Positions", href: "/positions" },
   { name: "Analytics", href: "/analytics" },
   { name: "Security", href: "/security" },
+  { name: "CCIP Transfer", href: "/ccip-transfer" },
 ]
 
 export function Navigation() {
